@@ -1,0 +1,26 @@
+[
+    {
+        "id": "01",
+        "name" : "Sashi",
+        "gender": "female",
+        "hometown": "Bengaluru",
+        "email": "admin@gmail.com",
+        "password": "admin"
+    },
+    {
+        "id": "02",
+        "name" : "Sahil",
+        "gender": "male",
+        "hometown": "Mangaluru",
+        "email": "Sahil@tharoor.com",
+        "password": "economist"
+    },
+    {
+        "id": "03",
+        "name" : "Pinki",
+        "gender": "female",
+        "hometown": "Bengaluru",
+        "email": "S@pinki.com",
+        "password": "Pinkgirl"
+    }
+]

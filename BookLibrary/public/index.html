@@ -1,0 +1,75 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Signin Template · Bootstrap</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/sign-in/">
+
+    <!-- Bootstrap core CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <div class="container">
+        <div class="jumbotron">
+          <h1>Login form</h1>         
+        </div>       
+      </div>
+
+      <body>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+                  <div class="card card-signin my-5">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Sign In</h5>
+                      <form class="form-signin" action="/auth" method="POST">
+                        <div class="form-label-group">
+                          <label for="inputEmail">Email address</label>
+                          <input type="email" id="inputEmail" class="form-control" placeholder="Email address" name="email" required autofocus>
+                          
+                        </div>
+          
+                        <div class="form-label-group">
+                         <label for="inputPassword">Password</label>
+                          <input type="password" id="inputPassword" class="form-control" placeholder="Password" name="password" required>
+                          
+                        </div>
+          
+                        <div class="custom-control custom-checkbox mb-3">
+                          <!-- <input type="checkbox" class="custom-control-input" id="customCheck1">
+                          <label class="custom-control-label" for="customCheck1">Remember password</label> -->
+                        </div>
+                        <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign in</button>
+                       </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </body>
+</html>
